@@ -14,4 +14,6 @@ After downloading and installing the tesseract from the link above. git clone th
 
 If errors show up, open the OCR_Application.py and change this line like this to your tesseracts path
 
->        pytesseract.pytesseract.tesseract_cmd = os.path.join(os.getcwd(), 'OCR', 'Tesseract-OCR', 'tesseract.exe')
+>pytesseract.pytesseract.tesseract_cmd = os.path.join(os.getcwd(), 'OCR', 'Tesseract-OCR', 'tesseract.exe')
+
+You might have installed the tesseract in C:\ directory. Change the directory accordingly. Above case was when i had the OCR software installed in the same directory as OCR_Application.py.

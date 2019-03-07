@@ -1,0 +1,5 @@
+pytesseract
+tesseract
+Pillow
+opencv-python
+opencv-contrib-python

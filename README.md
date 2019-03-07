@@ -12,7 +12,9 @@ https://github.com/UB-Mannheim/tesseract/wiki
 >Guide:
 
 Pip install the requirements listed in requirements.txt
-
+```
+pip install -r requirements.txt
+```
 After downloading and installing the tesseract from the link above. git clone the repo and and run the application.py
 
 If errors show up, open the OCR_Application.py and change this line like this to your tesseracts path

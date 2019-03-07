@@ -2,6 +2,9 @@
 
 Pyqt5 based GUI OCR for documents and clear picture using pytesseract
 
+![alt text](https://github.com/mujeebishaque/OCR/blob/master/ocr.png)
+
+
 >Please visit the link below to download tesseract for windows and install it
 
 https://github.com/UB-Mannheim/tesseract/wiki

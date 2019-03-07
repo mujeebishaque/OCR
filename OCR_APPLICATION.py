@@ -53,11 +53,11 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "LGU OCR"))
-        self.label.setText(_translate("MainWindow", "OCR Lahore Garrison University"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Python OCR"))
+        self.label.setText(_translate("MainWindow", "OCR Python GUI Application"))
         self.select_img.setText(_translate("MainWindow", "Select Image"))
         self.img_txt_btn.setText(_translate("MainWindow", "Convert Image To Text"))
-        self.label_2.setText(_translate("MainWindow", "Supervised By Dr. Muhammad Asif"))
+        self.label_2.setText(_translate("MainWindow", "Made with <3 @ 2019"))
  
     def set_image(self):
         fileName, _ = QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "", "Image Files(*.jpg *.jpeg *.png)")

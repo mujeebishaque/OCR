@@ -1,6 +1,0 @@
-pip install pytesseract
-pip install tesseract
-pip install Pillow
-pip install opencv-python
-# may require this
-pip install opencv-contrib-python
